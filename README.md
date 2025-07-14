@@ -29,7 +29,7 @@ We visualize the **distribution of India's population** across three key age gro
 
 The following bar chart was created in Tableau:
 
-> ![India Population Bar Chart](./Dashboard 2.png)
+> ![India Population Bar Chart](./Dashboard2.png)
 
 ### 🎯 Insights
 - **15–64** age group dominates the population, indicating a strong working-age demographic.
