@@ -1,48 +1,86 @@
 # SCT_DS_1
-# Population Distribution by Age Group – India (2022)
+# 📊 India Population Distribution by Age Group (2022)
 
-This project visualizes the **distribution of India’s population by age group** using a bar chart created in **Tableau**.  
-It satisfies the task: _"Create a bar chart to visualize the distribution of a categorical variable (age groups).”_
+This project fulfills **Task 01**: _"Create a bar chart to visualize the distribution of a categorical or continuous variable, such as the distribution of ages or genders in a population."_
+
+We visualize the **distribution of India's population** across three key age groups: **0–14**, **15–64**, and **65+**, using a **bar chart created in Tableau**.
 
 ---
 
-## 📊 Dataset
+## 📁 Dataset Information
 
-- Source: Based on World Bank indicators
-- File: [`India_Population_By_AgeGroup.csv`](./India_Population_By_AgeGroup.csv)
-- Format: Long format for direct use in Tableau
+- **Filename:** `India_Population_By_AgeGroup_LongFormat.csv`
+- **Source:** Derived from World Bank indicators:
+  - Total population: [SP.POP.TOTL](https://data.worldbank.org/indicator/SP.POP.TOTL)
+  - Age structure (%): [0–14](https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS), [15–64](https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS), [65+](https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS)
+- **Format:** Long format (ready for Tableau)
 
-| Age Group | Population   |
-|-----------|--------------|
-| 0–14      | 360,000,000  |
-| 15–64     | 910,000,000  |
-| 65+       | 100,000,000  |
+### 🔢 Sample Data
+
+| Country Name | Year | Age Group | Population   |
+|--------------|------|-----------|--------------|
+| India        | 2022 | 0–14      | 360,000,000  |
+| India        | 2022 | 15–64     | 910,000,000  |
+| India        | 2022 | 65+       | 100,000,000  |
 
 ---
 
 ## 📈 Visualization
 
-- Tool: Tableau
-- Chart Type: Bar Chart
-- Insight: The majority of India’s population falls within the **15–64** age group, highlighting a strong working-age demographic.
+The following bar chart was created in Tableau:
 
-> ![India Population Bar Chart](<img width="2756" height="1270" alt="India population over years" src="https://github.com/user-attachments/assets/1459c5d5-9ea8-472b-9f60-5737abeb22f3" />
-)
+> ![India Population Bar Chart](./Dashboard2.png)
 
----
-
-## 📁 Folder Structure
-SCT_DS_1/
-├── India_Population_By_AgeGroup_LongFormat.csv
-  ├── README.md
-     └── India_Population_BarChart.png (optional)
+### 🎯 Insights
+- **15–64** age group dominates the population, indicating a strong working-age demographic.
+- **0–14** still represents a substantial share, reflecting future workforce potential.
+- **65+** is relatively smaller, but growing due to improving life expectancy.
 
 ---
 
-## ✅ How to Use
+## 🛠️ Tools Used
 
-1. Download the `.csv` file
+- [Tableau Public](https://public.tableau.com/)
+- Data from [World Bank Open Data](https://data.worldbank.org/)
+- CSV reshaped into **long format** for easy use in Tableau
+
+---
+
+## 📌 How to Recreate This Chart
+
+1. Download the CSV file from this repo
 2. Open **Tableau**
-3. Connect to the CSV file
-4. Drag `Age Group` to Columns and `Population` to Rows to recreate the bar chart
+3. Connect to `India_Population_By_AgeGroup_LongFormat.csv`
+4. Drag:
+   - `Age Group` → **Columns**
+   - `Population` → **Rows**
+5. Customize chart with labels, colors, and titles
+6. Export the image if needed via `File > Export > Image`
+
+---
+
+## 📂 Folder Structure
+
+Population-AgeGroup-India/
+├── data/
+│   └── India_Population_By_AgeGroup_LongFormat.csv
+│
+├── images/
+│   └── India_Population_BarChart.png
+│
+├── tableau/
+│   └── India_Population_Distribution.twbx   # (optional if you want to share your Tableau workbook)
+│
+├── README.md
+
+
+---
+
+## ✅ Status
+
+- [x] Dataset Created
+- [x] Bar Chart Created in Tableau
+- [x] Exported Image Added
+- [x] Task 01 Completed
+
 
