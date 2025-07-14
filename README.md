@@ -50,7 +50,7 @@ The following bar chart was created in Tableau:
 
 1. Download the CSV file from this repo
 2. Open **Tableau**
-3. Connect to `India_Population_By_AgeGroup_LongFormat.csv`
+3. Connect to `India_Population_By_AgeGroup.csv`
 4. Drag:
    - `Age Group` → **Columns**
    - `Population` → **Rows**
