@@ -9,7 +9,7 @@ We visualize the **distribution of India's population** across three key age gro
 
 ## 📁 Dataset Information
 
-- **Filename:** `India_Population_By_AgeGroup_LongFormat.csv`
+- **Filename:** `India_Population_By_AgeGroup.csv`
 - **Source:** Derived from World Bank indicators:
   - Total population: [SP.POP.TOTL](https://data.worldbank.org/indicator/SP.POP.TOTL)
   - Age structure (%): [0–14](https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS), [15–64](https://data.worldbank.org/indicator/SP.POP.1564.TO.ZS), [65+](https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS)
@@ -29,7 +29,7 @@ We visualize the **distribution of India's population** across three key age gro
 
 The following bar chart was created in Tableau:
 
-> ![India Population Bar Chart](./Dashboard2.png)
+> ![India Population Bar Chart](./India_Population_Bar_Chart.png)
 
 ### 🎯 Insights
 - **15–64** age group dominates the population, indicating a strong working-age demographic.
