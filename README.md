@@ -59,23 +59,6 @@ The following bar chart was created in Tableau:
 
 ---
 
-## 📂 Folder Structure
-
-Population-AgeGroup-India/
-├── data/
-│   └── India_Population_By_AgeGroup_LongFormat.csv
-│
-├── images/
-│   └── India_Population_BarChart.png
-│
-├── tableau/
-│   └── India_Population_Distribution.twbx   # (optional if you want to share your Tableau workbook)
-│
-├── README.md
-
-
----
-
 ## ✅ Status
 
 - [x] Dataset Created
