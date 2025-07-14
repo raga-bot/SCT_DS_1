@@ -26,15 +26,16 @@ It satisfies the task: _"Create a bar chart to visualize the distribution of a c
 - Chart Type: Bar Chart
 - Insight: The majority of India’s population falls within the **15–64** age group, highlighting a strong working-age demographic.
 
-> ![India Population Bar Chart](your-chart-image.png)
+> ![India Population Bar Chart](<img width="2756" height="1270" alt="India population over years" src="https://github.com/user-attachments/assets/1459c5d5-9ea8-472b-9f60-5737abeb22f3" />
+)
 
 ---
 
 ## 📁 Folder Structure
 SCT_DS_1/
 ├── India_Population_By_AgeGroup_LongFormat.csv
-├── README.md
-└── India_Population_BarChart.png (optional)
+  ├── README.md
+     └── India_Population_BarChart.png (optional)
 
 ---
 
